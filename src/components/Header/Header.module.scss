@@ -1,4 +1,4 @@
-@import './../styles/variables.scss';
+@import './../../styles/variables.scss';
 
 .header {
     background: $dark;
@@ -30,7 +30,7 @@
             color: $light;
         }
 
-        &nav {
+        &__nav {
             top: 0;
             right: 100%;
             bottom: 0;
@@ -55,8 +55,11 @@
                 height: 100%;
                 position: static;
             }
+            &__label{
+                font-weight: 500;
+            }
         }
-        &toggle {
+        &__toggle {
             cursor: pointer;
             display: flex;
             align-items: center;
